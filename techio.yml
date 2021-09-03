@@ -1,4 +1,8 @@
-title: Custom Template
+title: Intro to Programming Examples
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
+projects:
+  test-java-playground:
+    buildCommand: echo "got to our buildCommand"
+    runner: niemasd/techio_java
