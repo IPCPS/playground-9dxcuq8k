@@ -16,6 +16,24 @@
 
 @[Negative Results]({"stubs": ["1.2/step5/NegativeResults.java"], "command": "sh run.sh NegativeResults 1.2/step5"})
 
+# 1.3 Syntax
+
+@[Syntax]({"stubs": ["1.3/step1/Syntax.java"], "command": "sh run.sh Syntax 1.3/step1"})
+
+@[Syntax]({"stubs": ["1.3/step2/Syntax.java"], "command": "sh run.sh Syntax 1.3/step2"})
+
+@[Syntax]({"stubs": ["1.3/step3/Syntax.java"], "command": "sh run.sh Syntax 1.3/step3"})
+
+# 2.1 Using Fields
+
+@[Using Fields]({"stubs": ["2.1/step1/UsingFields.java"], "command": "sh run.sh UsingFields 2.1/step1"})
+
+@[Using Fields]({"stubs": ["2.1/step2/UsingFields.java"], "command": "sh run.sh UsingFields 2.1/step2"})
+
+@[Getting Paid]({"stubs": ["2.1/step3/widget1/Pay.java"], "command": "sh run.sh Pay 2.1/step3/widget1"})
+
+@[Calculating Revenue]({"stubs": ["2.1/step3/widget2/Revenue.java"], "command": "sh run.sh Revenue 2.1/step3/widget2"})
+
 # 2.2 Beyond ints
 
 @[String Examples]({"stubs": ["2.2/step1/StringExamples.java"], "command": "sh run.sh StringExamples 2.2/step1"})
