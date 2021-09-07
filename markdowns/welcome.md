@@ -62,3 +62,7 @@
 
 @[matches]({"stubs": ["8.2/step3/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.2/step3"})
 
+# 8.3 Identifying Common Behaviors
+
+@[Field access (or lack thereof)]({"stubs": ["8.3/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.3/step2"})
+
