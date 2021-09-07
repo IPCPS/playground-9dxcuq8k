@@ -1,3 +1,18 @@
+// { autofold
+class ImageData {
+  String keywords; // All the keywords, separated by spaces
+  String filetype; // gif, png, jpg, and so on
+  int width;       // the width in pixels
+  int height;      // the height in pixels
+  ImageData(String keywords, String filetype, int width, int height) {
+    this.keywords = keywords;
+    this.filetype = filetype;
+    this.width = width;
+    this.height = height;
+  }
+}
+// }
+
 class LargerThan {
   int minWidth, minHeight;
   
@@ -13,7 +28,6 @@ class LargerThan {
 }
 class ExamplesSearch {
   ImageData i1 = new ImageData("ucsd cse computer science", "png", 600, 400);
-  ...
   LargerThan lg1 = new LargerThan(600, 400);
   LargerThan lg2 = new LargerThan(599, 400);
   LargerThan lg3 = new LargerThan(600, 399);

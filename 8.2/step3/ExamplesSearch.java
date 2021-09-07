@@ -1,3 +1,17 @@
+// { autofold
+class ImageData {
+  String keywords; // All the keywords, separated by spaces
+  String filetype; // gif, png, jpg, and so on
+  int width;       // the width in pixels
+  int height;      // the height in pixels
+  ImageData(String keywords, String filetype, int width, int height) {
+    this.keywords = keywords;
+    this.filetype = filetype;
+    this.width = width;
+    this.height = height;
+  }
+}
+// }
 class MatchesExtension {
   String ext;
   MatchesExtension(String ext) { this.ext = ext; }
