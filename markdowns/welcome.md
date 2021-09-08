@@ -50,6 +50,11 @@
 
 @[Mixing Strings and ints]({"stubs": ["2.3/step3/JavaChecksTypes.java"], "command": "sh run.sh JavaChecksTypes 2.3/step3"})
 
+# 3.1 Capturing Repeated Work with Methods
+
+@[Using Methods]({"stubs": ["3.1/step1/Distance.java"], "command": "sh run.sh JavaChecksTypes 3.1/step1"})
+@[Using Methods]({"stubs": ["3.1/step2/Distance.java"], "command": "sh run.sh JavaChecksTypes 3.1/step2"})
+
 # 8.1 Searching for Images
 
 @[Image Data]({"stubs": ["8.1/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.1/step1"})
