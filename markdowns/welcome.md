@@ -52,8 +52,9 @@
 
 # 3.1 Capturing Repeated Work with Methods
 
-@[Using Methods]({"stubs": ["3.1/step1/Distance.java"], "command": "sh run.sh JavaChecksTypes 3.1/step1"})
-@[Using Methods]({"stubs": ["3.1/step2/Distance.java"], "command": "sh run.sh JavaChecksTypes 3.1/step2"})
+@[Using Methods]({"stubs": ["3.1/step1/Distance.java"], "command": "sh run.sh Distance 3.1/step1"})
+
+@[Using Methods]({"stubs": ["3.1/step2/Distance.java"], "command": "sh run.sh Distance 3.1/step2"})
 
 # 8.1 Searching for Images
 
