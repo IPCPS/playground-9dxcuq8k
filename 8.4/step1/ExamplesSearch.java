@@ -22,7 +22,7 @@ class MatchesExtension implements ImageQuery {
   String extension;
   public MatchesExtension(String extension) { this.extension = extension; }
   public boolean matches(ImageData id) {
-    return id.filetype.equals(this.extentsion);
+    return id.filetype.equals(this.extension);
   }
 }
 class LargerThan implements ImageQuery {

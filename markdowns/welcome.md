@@ -72,7 +72,7 @@
 
 @[Field access (or lack thereof)]({"stubs": ["8.3/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.3/step2"})
 
-# 8.4 Compbining Queries
+# 8.4 Combining Queries
 
 @[AndQuery]({"stubs": ["8.4/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.4/step1"})
 

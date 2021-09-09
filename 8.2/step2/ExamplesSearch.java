@@ -1,3 +1,5 @@
+import tester.*;
+
 // { autofold
 class ImageData {
   String keywords; // All the keywords, separated by spaces

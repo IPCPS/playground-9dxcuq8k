@@ -21,7 +21,6 @@ class MatchesExtension {
 }
 class ExamplesSearch {
   ImageData i1 = new ImageData("ucsd cse computer science", "png", 600, 400);
-  ...
   MatchesExtension png = new MatchesExtension("png");
   MatchesExtension jpg = new MatchesExtension("jpg");
   boolean testMatchesExtensionClass(Tester t) {

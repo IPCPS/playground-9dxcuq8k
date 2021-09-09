@@ -1,3 +1,5 @@
+import tester.*;
+
 class ImageData {
   String keywords; // All the keywords, separated by spaces
   String filetype; // gif, png, jpg, and so on

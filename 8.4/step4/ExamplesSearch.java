@@ -42,7 +42,7 @@ class ContainsKeyword implements ImageQuery {
     this.keyword = keyword;
   }
   public boolean matches(ImageData id) {
-    return id.keywords.indexOf(this.keyword) != 0;
+    return id.keywords.indexOf(this.keyword) != -1;
   }
 }
 
