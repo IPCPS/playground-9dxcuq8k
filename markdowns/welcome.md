@@ -72,3 +72,13 @@
 
 @[Field access (or lack thereof)]({"stubs": ["8.3/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.3/step2"})
 
+# 8.4 Compbining Queries
+
+@[AndQuery]({"stubs": ["8.4/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.4/step1"})
+
+@[ContainsKeyword]({"stubs": ["8.4/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.4/step2"})
+
+@[Combining AndQueries]({"stubs": ["8.4/step4/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.4/step4"})
+
+@[OrQuery]({"stubs": ["8.4/step5/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.4/step5"})
+
