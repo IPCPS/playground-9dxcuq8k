@@ -56,6 +56,8 @@
 
 @[Using Methods]({"stubs": ["3.1/step1/Distance2.java"], "command": "sh run.sh Distance 3.1/step1"})
 
+@[Using Methods]({"stubs": ["3.1/step5/Distance.java"], "command": "sh run.sh Distance 3.1/step5"})
+
 # 3.2 Methods as Descriptions of Tasks
 
 @[Implementing Tasks]({"stubs": ["3.2/step4/MadLibs.java"], "command": "sh run.sh MadLibs 3.2/step4"})
