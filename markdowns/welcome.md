@@ -56,6 +56,10 @@
 
 @[Using Methods]({"stubs": ["3.1/step1/Distance2.java"], "command": "sh run.sh Distance 3.1/step1"})
 
+# 3.2 Methods as Descriptions of Tasks
+
+@[Implementing Tasks]({"stubs": ["3.2/step4/MadLibs.java"], "command": "sh run.sh MadLibs 3.2/step4"})
+
 # 8.1 Searching for Images
 
 @[Image Data]({"stubs": ["8.1/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.1/step1"})
