@@ -62,6 +62,10 @@
 
 @[Implementing Tasks]({"stubs": ["3.2/step4/MadLibs.java"], "command": "sh run.sh MadLibs 3.2/step4"})
 
+@[Following the Design Recipe]({"stubs": ["3.2/step6/WeeklyPay.java"], "command": "sh run.sh WeeklyPay 3.2/step6"})
+
+@[Following the Design Recipe]({"stubs": ["3.2/step6/Multiplication.java"], "command": "sh run.sh Multiplication 3.2/step6"})
+
 # 8.1 Searching for Images
 
 @[Image Data]({"stubs": ["8.1/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.1/step1"})
