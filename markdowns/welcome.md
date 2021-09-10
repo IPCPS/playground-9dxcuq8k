@@ -72,6 +72,12 @@
 
 @[Understanding Errors]({"stubs": ["3.3/step3/MadLibs.java"], "command": "sh run.sh MadLibs 3.3/step3"})
 
+# 4.2 More Examples of Decision-Making Programs
+
+@[Using Conditions]({"stubs": ["4.2/step4/Grades.java"], "command": "sh run.sh Grades 4.2/step4"})
+
+@[Using Conditions]({"stubs": ["4.2/step5/Grades.java"], "command": "sh run.sh Grades 4.2/step5"})
+
 # 8.1 Searching for Images
 
 @[Image Data]({"stubs": ["8.1/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.1/step1"})
