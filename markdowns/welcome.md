@@ -42,6 +42,12 @@
 
 @[Conctenating Strings]({"stubs": ["2.2/step3/Name.java"], "command": "sh run.sh Name 2.2/step3"})
 
+@[Video Game Example Initial Attempt]({"stubs": ["2.2/step4/VideoGame.java"], "command": "sh run.sh VideoGame 2.2/step4"})
+
+@[Video Game Example Second Attempt]({"stubs": ["2.2/step5/VideoGame.java"], "command": "sh run.sh VideoGame 2.2/step5"})
+
+@[Number Precision]({"stubs": ["2.2/step6/Numbers.java"], "command": "sh run.sh Numbers 2.2/step6"})
+
 # 2.3 Java Checks Types
 
 @[Mixing Strings and ints]({"stubs": ["2.3/step1/JavaChecksTypes.java"], "command": "sh run.sh JavaChecksTypes 2.3/step1"})
