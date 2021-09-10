@@ -66,6 +66,12 @@
 
 @[Following the Design Recipe]({"stubs": ["3.2/step6/Multiplication.java"], "command": "sh run.sh Multiplication 3.2/step6"})
 
+# 3.3 With Great Power Comes More Opportunity for Mistakes
+
+@[Understanding Errors]({"stubs": ["3.3/step2/MadLibs.java"], "command": "sh run.sh MadLibs 3.3/step2"})
+
+@[Understanding Errors]({"stubs": ["3.3/step3/MadLibs.java"], "command": "sh run.sh MadLibs 3.3/step3"})
+
 # 8.1 Searching for Images
 
 @[Image Data]({"stubs": ["8.1/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.1/step1"})
