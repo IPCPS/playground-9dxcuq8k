@@ -82,6 +82,10 @@
 
 @[Using Conditions]({"stubs": ["4.2/step5/Grades.java"], "command": "sh run.sh Grades 4.2/step5"})
 
+# 5.1 Representing Compound Data
+
+@[Combining Data into Classes]({"stubs": ["5.1/step2/Student.java"], "command": "sh run.sh ExamplesStudent 5.1/step2"})
+
 # 8.1 Searching for Images
 
 @[Image Data]({"stubs": ["8.1/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.1/step1"})
