@@ -48,6 +48,8 @@
 
 @[Number Precision]({"stubs": ["2.2/step6/Numbers.java"], "command": "sh run.sh Numbers 2.2/step6"})
 
+@[Rectangle]({"stubs": ["2.2/step7/Rectangle.java"], "command": "sh run.sh Rectangle 2.2/step7"})
+
 # 2.3 Java Checks Types
 
 @[Mixing Strings and ints]({"stubs": ["2.3/step1/JavaChecksTypes.java"], "command": "sh run.sh JavaChecksTypes 2.3/step1"})
