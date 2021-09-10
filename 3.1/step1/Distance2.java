@@ -1,4 +1,4 @@
-class Distance {
+class Distance2 {
   int gravity = 10;
 
   int distanceAfter(int seconds) {
