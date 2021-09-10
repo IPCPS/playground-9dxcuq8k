@@ -84,7 +84,7 @@
 
 # 5.1 Representing Compound Data
 
-@[Combining Data into Classes]({"stubs": ["5.1/step2/Student.java"], "command": "sh run.sh ExamplesStudent 5.1/step2"})
+@[Combining Data into Classes]({"stubs": ["5.1/step2/ExamplesStudent.java"], "command": "sh run.sh ExamplesStudent 5.1/step2"})
 
 # 8.1 Searching for Images
 
