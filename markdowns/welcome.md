@@ -72,6 +72,10 @@
 
 @[Understanding Errors]({"stubs": ["3.3/step3/MadLibs.java"], "command": "sh run.sh MadLibs 3.3/step3"})
 
+# 4.1 Beyond Arithmetic and Concatenation
+
+@[Using Conditions]({"stubs": ["4.1/step6/WeeklyPay.java"], "command": "sh run.sh WeeklyPay 4.1/step6"})
+
 # 4.2 More Examples of Decision-Making Programs
 
 @[Using Conditions]({"stubs": ["4.2/step4/Grades.java"], "command": "sh run.sh Grades 4.2/step4"})
