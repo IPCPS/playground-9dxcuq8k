@@ -54,7 +54,7 @@
 
 @[Using Methods]({"stubs": ["3.1/step1/Distance.java"], "command": "sh run.sh Distance 3.1/step1"})
 
-@[Using Methods]({"stubs": ["3.1/step1/Distance2.java"], "command": "sh run.sh Distance 3.1/step1"})
+@[Using Methods]({"stubs": ["3.1/step1/Distance2.java"], "command": "sh run.sh Distance2 3.1/step1"})
 
 @[Using Methods]({"stubs": ["3.1/step5/Distance.java"], "command": "sh run.sh Distance 3.1/step5"})
 
@@ -85,6 +85,10 @@
 # 5.1 Representing Compound Data
 
 @[Combining Data into Classes]({"stubs": ["5.1/step2/ExamplesStudent.java"], "command": "sh run.sh ExamplesStudent 5.1/step2"})
+
+# 5.2 More on Methods
+
+@[Creating Instances of Classes]({"stubs": ["5.2/step4/ExamplesStudent.java"], "command": "sh run.sh ExamplesStudent 5.2/step4"})
 
 # 8.1 Searching for Images
 
