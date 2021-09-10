@@ -54,7 +54,7 @@
 
 @[Using Methods]({"stubs": ["3.1/step1/Distance.java"], "command": "sh run.sh Distance 3.1/step1"})
 
-@[Using Methods]({"stubs": ["3.1/step1/Distance2.java"], "command": "sh run.sh Distance2 3.1/step1"})
+@[Using Methods]({"stubs": ["3.1/step1/Distance2.java"], "command": "sh run.sh Distance 3.1/step1"})
 
 # 8.1 Searching for Images
 
