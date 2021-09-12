@@ -98,6 +98,22 @@
 
 @[Creating Instances of Classes]({"stubs": ["5.2/step4/ExamplesStudent.java"], "command": "sh run.sh ExamplesStudent 5.2/step4"})
 
+# 7.1 Nested Data
+
+@[RectRegion]({"stubs": ["7.1/step3/RectExamples.java"], "command": "sh run.sh RectExamples 7.1/step3"})
+
+@[RectRegion examples]({"stubs": ["7.1/step4/RectExamples.java"], "command": "sh run.sh RectExamples 7.1/step4"})
+
+@[ExamplesRegion]({"stubs": ["7.1/step6/ExamplesRegion.java"], "command": "sh run.sh ExamplesRegion 7.1/step6"})
+
+@[contains]({"stubs": ["7.1/step7/RectRegion.java"], "command": "sh run.sh RectRegion 7.1/step7"})
+
+@[belowLeftOf]({"stubs": ["7.1/step8/PointExamples.java"], "command": "sh run.sh PointExamples 7.1/step8"})
+
+@[aboveRightOf]({"stubs": ["7.1/step9/PointExamples.java"], "command": "sh run.sh PointExamples 7.1/step9"})
+
+@[contains]({"stubs": ["7.1/step10/ExamplesRegion.java"], "command": "sh run.sh ExamplesRegion 7.1/step10"})
+
 # 8.1 Searching for Images
 
 @[Image Data]({"stubs": ["8.1/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.1/step1"})
