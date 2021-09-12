@@ -1,6 +1,23 @@
-// { autofold
 import tester.*;
 
+class ExamplesSearch {
+  ImageData i1 = new ImageData("Carol Shaw River Raid", "png", 600, 400);
+  ImageData i2 = new ImageData("crescendo heliotrope cerebellum", "png", 500, 400);
+  ImageQuery lg1 = new LargerThan(600, 400);
+  ImageQuery me1 = new MatchesExtension("png");
+  ImageQuery me2 = new MatchesExtension("gif");
+
+  OrQuery or1 = new OrQuery(lg1, me2);
+  OrQuery or2 = new OrQuery(me1, me2);
+
+  boolean testAnd(Tester t) {
+    return t.checkExpect(this.or1.matches(i1), true) &&
+           t.checkExpect(this.or1.matches(i2), false) &&
+           t.checkExpect(this.or2.matches(i2), true);
+  }
+}
+
+// { autofold
 class ImageData {
   String keywords; // All the keywords, separated by spaces
   String filetype; // gif, png, jpg, and so on
@@ -48,19 +65,3 @@ class AndQuery implements ImageQuery {
   }
 }
 // }
-class ExamplesSearch {
-  ImageData i1 = new ImageData("Carol Shaw River Raid", "png", 600, 400);
-  ImageData i2 = new ImageData("crescendo heliotrope cerebellum", "png", 500, 400);
-  ImageQuery lg1 = new LargerThan(600, 400);
-  ImageQuery me1 = new MatchesExtension("png");
-  ImageQuery me2 = new MatchesExtension("gif");
-
-  OrQuery or1 = new OrQuery(lg1, me2);
-  OrQuery or2 = new OrQuery(me1, me2);
-
-  boolean testAnd(Tester t) {
-    return t.checkExpect(this.or1.matches(i1), true) &&
-           t.checkExpect(this.or1.matches(i2), false) &&
-           t.checkExpect(this.or2.matches(i2), true);
-  }
-}

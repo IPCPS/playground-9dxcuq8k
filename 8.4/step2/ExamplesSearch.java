@@ -1,6 +1,24 @@
-// { autofold
 import tester.*;
 
+// write the ContainsKeyword class here
+
+
+public class ExamplesSearch {
+  ImageData i1 = new ImageData("Carol Shaw River Raid", "png", 600, 400);
+  ImageData i2 = new ImageData("crescendo heliotrope cerebellum", "jpg", 500, 400);
+  ImageQuery ck1 = new ContainsKeyword("River");
+  ImageQuery ck2 = new ContainsKeyword("crescendo");
+  ImageQuery ck3 = new ContainsKeyword("raspberry");
+
+  boolean testAnd(Tester t) {
+    return t.checkExpect(this.ck1.matches(i1), true) &&
+           t.checkExpect(this.ck1.matches(i2), false) &&
+           t.checkExpect(this.ck2.matches(i2), true) &&
+           t.checkExpect(this.ck3.matches(i1), false);
+  }
+}
+
+// { autofold
 class ImageData {
   String keywords; // All the keywords, separated by spaces
   String filetype; // gif, png, jpg, and so on
@@ -37,21 +55,3 @@ class LargerThan implements ImageQuery {
   }
 }
 // }
-
-// write the ContainsKeyword class here
-
-
-public class ExamplesSearch {
-  ImageData i1 = new ImageData("Carol Shaw River Raid", "png", 600, 400);
-  ImageData i2 = new ImageData("crescendo heliotrope cerebellum", "jpg", 500, 400);
-  ImageQuery ck1 = new ContainsKeyword("River");
-  ImageQuery ck2 = new ContainsKeyword("crescendo");
-  ImageQuery ck3 = new ContainsKeyword("raspberry");
-
-  boolean testAnd(Tester t) {
-    return t.checkExpect(this.ck1.matches(i1), true) &&
-           t.checkExpect(this.ck1.matches(i2), false) &&
-           t.checkExpect(this.ck2.matches(i2), true) &&
-           t.checkExpect(this.ck3.matches(i1), false);
-  }
-}

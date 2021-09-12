@@ -1,6 +1,22 @@
-// { autofold
 import tester.*;
 
+public class ExamplesSearch {
+  ImageData i1 = new ImageData("Carol Shaw River Raid", "png", 600, 400);
+  ImageData i2 = new ImageData("crescendo heliotrope cerebellum", "jpg", 500, 400);
+  ImageQuery lg1 = new LargerThan(600, 400);
+  ImageQuery me1 = new MatchesExtension("png");
+  AndQuery aq = new AndQuery(this.lg1, this.me1);
+
+  ImageQuery me2 = new MatchesExtension("gif");
+  AndQuery aq2 = new AndQuery(this.lg1, this.me2);
+
+  boolean testAnd(Tester t) {
+    return t.checkExpect(this.aq.matches(i1), true) &&
+           t.checkExpect(this.aq2.matches(i2), false);
+  }
+}
+
+// { autofold
 class ImageData {
   String keywords; // All the keywords, separated by spaces
   String filetype; // gif, png, jpg, and so on
@@ -48,18 +64,3 @@ class AndQuery {
   }
 }
 // }
-public class ExamplesSearch {
-  ImageData i1 = new ImageData("Carol Shaw River Raid", "png", 600, 400);
-  ImageData i2 = new ImageData("crescendo heliotrope cerebellum", "jpg", 500, 400);
-  ImageQuery lg1 = new LargerThan(600, 400);
-  ImageQuery me1 = new MatchesExtension("png");
-  AndQuery aq = new AndQuery(this.lg1, this.me1);
-
-  ImageQuery me2 = new MatchesExtension("gif");
-  AndQuery aq2 = new AndQuery(this.lg1, this.me2);
-
-  boolean testAnd(Tester t) {
-    return t.checkExpect(this.aq.matches(i1), true) &&
-           t.checkExpect(this.aq2.matches(i2), false);
-  }
-}
