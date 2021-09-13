@@ -24,7 +24,7 @@ class MatchesExtension implements ImageQuery {
   String extension;
   public MatchesExtension(String extension) { this.extension = extension; }
   public boolean matches(ImageData id) {
-    return id.filetype.equals(this.ext);
+    return id.filetype.equals(this.extension);
   }
 }
 // }
