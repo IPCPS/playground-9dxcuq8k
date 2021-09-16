@@ -88,6 +88,8 @@
 
 # 4.2 More Examples of Decision-Making Programs
 
+@[Using Conditions]({"stubs": ["4.2/step3/Grades.java"], "command": "sh run.sh Grades 4.2/step3"})
+
 @[Using Conditions]({"stubs": ["4.2/step4/Grades.java"], "command": "sh run.sh Grades 4.2/step4"})
 
 @[Using Conditions]({"stubs": ["4.2/step5/Grades.java"], "command": "sh run.sh Grades 4.2/step5"})
