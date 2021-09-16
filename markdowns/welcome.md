@@ -80,6 +80,10 @@
 
 @[Understanding Errors]({"stubs": ["3.3/step3/MadLibs.java"], "command": "sh run.sh MadLibs 3.3/step3"})
 
+@[Understanding Errors]({"stubs": ["3.3/step4/MadLibs.java"], "command": "sh run.sh MadLibs 3.3/step4"})
+
+@[Understanding Errors]({"stubs": ["3.3/step8/MadLibs.java"], "command": "sh run.sh MadLibs 3.3/step8"})
+
 # 4.1 Beyond Arithmetic and Concatenation
 
 @[Using Conditions]({"stubs": ["4.1/step4/WeeklyPay.java"], "command": "sh run.sh WeeklyPay 4.1/step4"})
