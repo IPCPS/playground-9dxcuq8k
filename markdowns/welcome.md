@@ -82,6 +82,8 @@
 
 # 4.1 Beyond Arithmetic and Concatenation
 
+@[Using Conditions]({"stubs": ["4.1/step4/WeeklyPay.java"], "command": "sh run.sh WeeklyPay 4.1/step4"})
+
 @[Using Conditions]({"stubs": ["4.1/step6/WeeklyPay.java"], "command": "sh run.sh WeeklyPay 4.1/step6"})
 
 # 4.2 More Examples of Decision-Making Programs
