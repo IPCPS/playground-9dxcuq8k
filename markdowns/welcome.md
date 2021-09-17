@@ -126,6 +126,14 @@
 
 @[contains]({"stubs": ["7.1/step10/ExamplesRegion.java"], "command": "sh run.sh ExamplesRegion 7.1/step10"})
 
+# 7.2 More Regions
+
+@[Why did the math teacher's plants keep dying? --  Because they grew square roots.]({"stubs": ["7.2/step2/SquareRoot.java"], "command": "sh run.sh SquareRoot 7.2/step2"})
+
+@[Square Roots]({"stubs": ["7.2/step3/SquareRoot.java"], "command": "sh run.sh SquareRoot 7.2/step3"})
+
+@[Square Roots]({"stubs": ["7.2/step5/Point.java"], "command": "sh run.sh Point 7.2/step5"})
+
 # 8.1 Searching for Images
 
 @[Image Data]({"stubs": ["8.1/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.1/step1"})
