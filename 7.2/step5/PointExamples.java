@@ -15,3 +15,9 @@ class Point {
     return Math.sqrt(Math.pow(this.x - other.x, 2) + Math.pow(this.y - other.y, 2));
   }
 }
+
+class PointExamples {
+  Point p1 = new Point(3, 5);
+  Point p2 = new Point(16, 1);
+  double dist = this.p1.distance(p2);
+}

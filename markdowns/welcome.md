@@ -132,7 +132,7 @@
 
 @[Square Roots]({"stubs": ["7.2/step3/SquareRoot.java"], "command": "sh run.sh SquareRoot 7.2/step3"})
 
-@[Square Roots]({"stubs": ["7.2/step5/Point.java"], "command": "sh run.sh Point 7.2/step5"})
+@[Square Roots]({"stubs": ["7.2/step5/PointExamples.java"], "command": "sh run.sh PointExamples 7.2/step5"})
 
 # 8.1 Searching for Images
 
