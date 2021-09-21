@@ -160,8 +160,8 @@
 
 @[OrQuery]({"stubs": ["8.4/step5/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.4/step5"})
 
-# 9.2 Abstracting Common Method Implementations
+# 11.2 Abstracting Common Method Implementations
 
-@[extends AQuery]({"stubs": ["9.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 9.2/step2"})
+@[extends AQuery]({"stubs": ["11.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 11.2/step2"})
 
-@[extends AQuery]({"stubs": ["9.2/step3/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 9.2/step3"})
+@[extends AQuery]({"stubs": ["11.2/step3/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 11.2/step3"})
