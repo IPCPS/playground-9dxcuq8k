@@ -1,10 +1,10 @@
 class WelcomeMessage {
   String welcomeMessage(int hour) {
     String message = "Good Morning";
-    if(time >= 0) {
+    if(hour >= 0) {
       message = "Good Morning";
     }
-    else if(time >= 12) {
+    else if(hour >= 12) {
       message = "Good Afternoon";
     }
     else {
