@@ -19,5 +19,6 @@ class WelcomeMessage {
     welcomeMessage(15);
     welcomeMessage(20);
     welcomeMessage(-10);
+    System.out.println();
   }
 }
