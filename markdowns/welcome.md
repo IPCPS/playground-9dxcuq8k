@@ -168,6 +168,10 @@
 
 @[WelcomeMessage Corrected]({"stubs": ["9.2/step4/WelcomeMessage.java"], "command": "sh run.sh WelcomeMessage 9.2/step4"})
 
+# 9.3 The static keyword
+
+@[MathExamples]({"stubs": ["9.3/step1/MathExamples.java"], "command": "sh run.sh MathExamples 9.3/step1"})
+
 # 9.4 The void keyword
 
 @[void WelcomeMessage]({"stubs": ["9.4/step2/WelcomeMessage.java"], "command": "sh run.sh WelcomeMessage 9.4/step2"})
