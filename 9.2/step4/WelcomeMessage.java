@@ -1,17 +1,17 @@
 class WelcomeMessage {
   String welcomeMessage(int hour) {
-    String message = "Good Morning";
-    if(hour >= 0 && hour < 12) {
+    String message;
+    if(hour < 0 || hour >= 24) {
+      message = "Invalid Hour";
+    }
+    else if(hour >= 0 && hour < 12) {
       message = "Good Morning";
     }
     else if(hour < 18) {
       message = "Good Afternoon";
     }
-    else if(hour < 24) {
-      message = "Good Evening";
-    }
     else {
-      message = "Invalid Hour";
+      message = "Good Evening";
     }
     return message;
   }
