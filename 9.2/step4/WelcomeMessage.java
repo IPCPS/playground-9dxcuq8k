@@ -4,7 +4,7 @@ class WelcomeMessage {
     if(hour < 0 || hour >= 24) {
       message = "Invalid Hour";
     }
-    else if(hour >= 0 && hour < 12) {
+    else if(hour < 12) {
       message = "Good Morning";
     }
     else if(hour < 18) {
