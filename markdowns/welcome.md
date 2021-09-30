@@ -180,7 +180,7 @@
 
 # 9.5 The main method
 
-@[HelloWorld]({"stubs": ["9.5/step3/HelloWorld.java"], "command": "cd 9.5/step3 && sh run.sh HelloWorld 9.5/step3"})
+@[HelloWorld]({"stubs": ["9.5/step3/HelloWorld.java"], "command": "cd 9.5/step3 && sh run_cli.sh HelloWorld 9.5/step3"})
 
 # 11.2 Abstracting Common Method Implementations
 
