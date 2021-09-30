@@ -172,6 +172,8 @@
 
 @[MathExamples]({"stubs": ["9.3/step1/MathExamples.java"], "command": "sh run.sh MathExamples 9.3/step1"})
 
+@[MyMath]({"stubs": ["9.3/step2/MyMath.java"], "command": "sh run.sh MyMath 9.3/step2"})
+
 # 9.4 The void keyword
 
 @[void WelcomeMessage]({"stubs": ["9.4/step2/WelcomeMessage.java"], "command": "sh run.sh WelcomeMessage 9.4/step2"})
