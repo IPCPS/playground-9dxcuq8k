@@ -1,5 +1,6 @@
 class WelcomeMessage {
   String welcomeMessage(int hour) {
+    System.out.println("Value of `hour`: " + hour);
     String message = "Good Morning";
     System.out.println("Before if/else if");
     if(hour >= 0) {
