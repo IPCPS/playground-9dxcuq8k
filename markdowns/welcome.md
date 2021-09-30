@@ -168,6 +168,10 @@
 
 @[WelcomeMessage Corrected]({"stubs": ["9.2/step4/WelcomeMessage.java"], "command": "sh run.sh WelcomeMessage 9.2/step4"})
 
+# 9.4 The void keyword
+
+@[void WelcomeMessage]({"stubs": ["9.4/step2/WelcomeMessage.java"], "command": "sh run.sh WelcomeMessage 9.4/step2"})
+
 # 11.2 Abstracting Common Method Implementations
 
 @[extends AQuery]({"stubs": ["11.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 11.2/step2"})
