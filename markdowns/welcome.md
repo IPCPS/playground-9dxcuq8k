@@ -88,6 +88,8 @@
 
 @[Using Conditions]({"stubs": ["4.1/step1/Comparisons.java"], "command": "sh run.sh Comparisons 4.1/step1"})
 
+@[Using Conditions]({"stubs": ["4.1/step3/WeeklyPay.java"], "command": "sh run.sh WeeklyPay 4.1/step3"})
+
 @[Using Conditions]({"stubs": ["4.1/step4/WeeklyPay.java"], "command": "sh run.sh WeeklyPay 4.1/step4"})
 
 @[Using Conditions]({"stubs": ["4.1/step6/WeeklyPay.java"], "command": "sh run.sh WeeklyPay 4.1/step6"})
