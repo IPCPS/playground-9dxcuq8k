@@ -110,6 +110,16 @@
 
 @[Creating Instances of Classes]({"stubs": ["5.2/step4/ExamplesStudent.java"], "command": "sh run.sh ExamplesStudent 5.2/step4"})
 
+# 5.3 Variables and Scope
+
+@[Total Cost Calculation]({"stubs": ["5.3/step1/Receipt.java"], "command": "sh run.sh Receipt 5.3/step1"})
+
+@[Variable fill-in]({"stubs": ["5.3/step2/Receipt.java"], "command": "sh run.sh Receipt 5.3/step2"})
+
+@[Bad Scope]({"stubs": ["5.3/step3/Receipt.java"], "command": "sh run.sh Receipt 5.3/step3"})
+
+@[Bad Scope Experimentation]({"stubs": ["5.3/step3/Receipt.java"], "command": "sh run.sh Receipt 5.3/step3"})
+
 # 6.2 From Examples to Testing
 
 @[Reviewing the Code]({"stubs": ["6.2/step1/ExamplesBook.java"], "command": "sh run.sh ExamplesBook 6.2/step1"})
