@@ -120,6 +120,12 @@
 
 @[Bad Scope Experimentation]({"stubs": ["5.3/step3/Receipt.java"], "command": "sh run.sh Receipt 5.3/step3"})
 
+# 6.1 More Classes
+
+@[ExamplesBook]({"stubs": ["6.1/step3/ExamplesBook.java"], "command": "sh run.sh ExamplesBook 6.1/step3"})
+
+@[Same Author?]({"stubs": ["6.1/step5/ExamplesBook.java"], "command": "sh run.sh ExamplesBook 6.1/step5"})
+
 # 6.2 From Examples to Testing
 
 @[Reviewing the Code]({"stubs": ["6.2/step1/ExamplesBook.java"], "command": "sh run.sh ExamplesBook 6.2/step1"})
