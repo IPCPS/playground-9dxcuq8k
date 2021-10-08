@@ -132,6 +132,8 @@
 
 @[Using Tester]({"stubs": ["6.2/step4/ExamplesBook.java"], "command": "sh run.sh ExamplesBook 6.2/step4"})
 
+@[When Tester fails]({"stubs": ["6.2/step6/ExamplesBook.java"], "command": "sh run.sh ExamplesBook 6.2/step6"})
+
 # 7.1 Nested Data
 
 @[RectRegion]({"stubs": ["7.1/step3/RectExamples.java"], "command": "sh run.sh RectExamples 7.1/step3"})
