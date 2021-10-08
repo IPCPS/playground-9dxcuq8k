@@ -17,7 +17,7 @@ class Book {
   // }
 
     int salePrice(int percentage) {
-      return (this.price * (100 - percentage)) / 100;
+      return this.price - (this.price * percentage) / 100;
     }
   }
   
