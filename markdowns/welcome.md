@@ -130,6 +130,8 @@
 
 @[Reviewing the Code]({"stubs": ["6.2/step1/ExamplesBook.java"], "command": "sh run.sh ExamplesBook 6.2/step1"})
 
+@[Reviewing the Code]({"stubs": ["6.2/step4/ExamplesBook.java"], "command": "sh run.sh ExamplesBook 6.2/step4"})
+
 # 7.1 Nested Data
 
 @[RectRegion]({"stubs": ["7.1/step3/RectExamples.java"], "command": "sh run.sh RectExamples 7.1/step3"})
