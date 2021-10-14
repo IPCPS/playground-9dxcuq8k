@@ -204,6 +204,8 @@
 
 # 9.5 The main method
 
+@[RunMe({"stubs": ["9.5/step1/HasAMainMethod.java"], "command": "sh run-cli.sh HelloWorld 9.5/step1})
+
 @[HelloWorld]({"stubs": ["9.5/step3/HelloWorld.java"], "command": "sh run_cli.sh HelloWorld 9.5/step3"})
 
 # 11.2 Abstracting Common Method Implementations
