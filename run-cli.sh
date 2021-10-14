@@ -1,2 +1,2 @@
-echo "TECHIO> terminal bash go.sh $2"
+echo "TECHIO> terminal bash; cd $2"
 sleep 300
