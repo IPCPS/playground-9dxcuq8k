@@ -1,2 +1,2 @@
-echo "TECHIO> terminal bash; cd $2"
+echo "TECHIO> terminal -s bash -i cd $2"
 sleep 300
