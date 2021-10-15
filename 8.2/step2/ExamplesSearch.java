@@ -31,8 +31,8 @@ class LargerThan {
 class ExamplesSearch {
   ImageData i1 = new ImageData("ucsd cse computer science", "png", 600, 400);
   LargerThan lg1 = new LargerThan(600, 400);
-  LargerThan lg2 = new LargerThan(599, 400);
-  LargerThan lg3 = new LargerThan(600, 399);
+  LargerThan lg2 = new LargerThan(601, 400);
+  LargerThan lg3 = new LargerThan(600, 401);
   boolean testLargerThanClass(Tester t) {
     return t.checkExpect(this.lg1.matches(i1), /* fill in: true or false*/) &&
            t.checkExpect(this.lg2.matches(i1), /* fill in: true or false*/) &&
