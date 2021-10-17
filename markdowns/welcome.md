@@ -184,29 +184,23 @@
 
 @[OrQuery]({"stubs": ["8.4/step5/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 8.4/step5"})
 
-# 9.2 Printing
+# 9.1 Intro to Arrays
 
-@[WelcomeMessage]({"stubs": ["9.2/step1/WelcomeMessage.java"], "command": "sh run.sh WelcomeMessage 9.2/step1"})
+@[Arrays]({"stubs": ["9.1/step1/ExamplesArrays.java"], "command": "sh run.sh ExamplesArrays 9.1/step1"})
 
-@[WelcomeMessage with Print]({"stubs": ["9.2/step3/WelcomeMessage.java"], "command": "sh run.sh WelcomeMessage 9.2/step3"})
+@[Arrays of numbers]({"stubs": ["9.1/step3/ExamplesNumberArrays.java"], "command": "sh run.sh ExamplesNumberArrays 9.1/step3"})
 
-@[WelcomeMessage Corrected]({"stubs": ["9.2/step4/WelcomeMessage.java"], "command": "sh run.sh WelcomeMessage 9.2/step4"})
+# 9.2 static methods
 
-# 9.3 The static keyword
+@[MathExamples]({"stubs": ["9.2/step1/MathExamples.java"], "command": "sh run.sh MathExamples 9.2/step1"})
 
-@[MathExamples]({"stubs": ["9.3/step1/MathExamples.java"], "command": "sh run.sh MathExamples 9.3/step1"})
+@[MyMath]({"stubs": ["9.2/step2/MyMath.java"], "command": "sh run.sh MyMath 9.2/step2"})
 
-@[MyMath]({"stubs": ["9.3/step2/MyMath.java"], "command": "sh run.sh MyMath 9.3/step2"})
+# 9.3 main, void, and printing
 
-# 9.4 The void keyword
+@[HasAMainMethod]({"stubs": ["9.3/step1/widget1/HasAMainMethod.java"], "command": "sh run-cli.sh HasAMainMethod 9.3/step1/widget1"})
 
-@[void WelcomeMessage]({"stubs": ["9.4/step2/WelcomeMessage.java"], "command": "sh run.sh WelcomeMessage 9.4/step2"})
-
-# 9.5 The main method
-
-@[HasAMainMethod]({"stubs": ["9.5/step1/HasAMainMethod.java"], "command": "sh run-cli.sh HelloWorld 9.5/step1"})
-
-@[HelloWorld]({"stubs": ["9.5/step3/HelloWorld.java"], "command": "sh run_cli.sh HelloWorld 9.5/step3"})
+@[HasAMainMethod (and an error!)]({"stubs": ["9.3/step1/widget2/HasAMainMethod.java"], "command": "sh run-cli.sh HasAMainMethod 9.3/step1/widget2"})
 
 # 11.2 Abstracting Common Method Implementations
 
