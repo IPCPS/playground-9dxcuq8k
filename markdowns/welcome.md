@@ -202,6 +202,10 @@
 
 @[HasAMainMethod (and an error!)]({"stubs": ["9.3/step1/widget2/HasAMainMethod.java"], "command": "sh run-cli.sh HasAMainMethod 9.3/step1/widget2"})
 
+@[Hello, World!]({"stubs": ["9.3/step4/HelloWorld.java"], "command": "sh run-cli.sh HelloWorld 9.3/step4"})
+
+@[Printing is fun]({"stubs": ["9.3/step5/PrintingIsFun.java"], "command": "sh run-cli.sh PrintingIsFun 9.3/step5"})
+
 # 11.2 Abstracting Common Method Implementations
 
 @[extends AQuery]({"stubs": ["11.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 11.2/step2"})
