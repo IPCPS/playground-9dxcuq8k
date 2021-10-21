@@ -206,6 +206,13 @@
 
 @[Printing is fun]({"stubs": ["9.3/step5/PrintingIsFun.java"], "command": "sh run-cli.sh PrintingIsFun 9.3/step5"})
 
+# 10.1 Arrays of command line arguments, loops
+
+@[SampleMain]({"stubs": ["10.1/step2/SampleMain.java"], "command": "sh run-cli.sh SampleMain 10.1/step2"})
+
+@[SumMain]({"stubs": ["10.1/step3/SumMain.java"], "command": "sh run-cli.sh SumMain 10.1/step3"})
+
+
 # 11.2 Abstracting Common Method Implementations
 
 @[extends AQuery]({"stubs": ["11.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 11.2/step2"})
