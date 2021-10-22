@@ -212,7 +212,7 @@
 
 @[SumMain]({"stubs": ["10.1/step3/SumMain.java"], "command": "sh run-cli.sh SumMain 10.1/step3"})
 
-@[CalcMain]({"stubs": ["10.1/step6/CalcMain.java"], "command": "sh run-cli.sh CalcMain 10.1/step6")
+@[CalcMain]({"stubs": ["10.1/step6/CalcMain.java"], "command": "sh run-cli.sh CalcMain 10.1/step6"})
 
 
 # 11.2 Abstracting Common Method Implementations
