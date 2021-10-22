@@ -216,6 +216,8 @@
 
 @[ExamplesArrays]({"stubs": ["10.2/step1/ExamplesArrays.java"], "command": "sh run.sh CalcMain 10.2/step1"})
 
+@[Intersperse]({"stubs": ["10.2/step3/Intersperse.java"], "command": "sh run.sh Intersperse 10.2/step3"})
+
 
 # 11.2 Abstracting Common Method Implementations
 
