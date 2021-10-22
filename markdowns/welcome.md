@@ -218,6 +218,8 @@
 
 @[Intersperse]({"stubs": ["10.2/step3/Intersperse.java"], "command": "sh run.sh Intersperse 10.2/step3"})
 
+@[AddAtEnd]({"stubs": ["10.4/step2/AddAtEnd.java"], "command": "sh run.sh AddAtEnd 10.4/step2"})
+
 
 # 11.2 Abstracting Common Method Implementations
 
