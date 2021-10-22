@@ -1,3 +1,4 @@
+import tester.*;
 class AddAtEnd {
   /*
   @param String[] base The base array to add to
