@@ -18,7 +18,7 @@ class AddAtEnd {
     String[] base1 = {"kiwi", "apple", "banana"};
     String[] check1 = {"kiwi", "apple", "banana", "orange"};
     t.checkExpect(this.addAtEnd(base1, "orange"), check1);
-    t.checkExpect(this.base1.length, ____FILL 1_____);
+    t.checkExpect(base1.length, ____FILL 1_____);
   
     String[] base2 = {};
     String[] check2 = {"bear"};
@@ -26,8 +26,8 @@ class AddAtEnd {
     t.checkExpect(this.addAtEnd(base2, "bear"), check2);
     t.checkExpect(this.addAtEnd(check2, "lion"), check3);
 
-    t.checkExpect(this.base2.length, ___FILL 2______);
-    t.checkExpect(this.check2.length, ___FILL 3______);
+    t.checkExpect(base2.length, ___FILL 2______);
+    t.checkExpect(check2.length, ___FILL 3______);
   
     return true;
   }
