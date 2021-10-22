@@ -214,7 +214,7 @@
 
 @[CalcMain]({"stubs": ["10.1/step6/CalcMain.java"], "command": "sh run-cli.sh CalcMain 10.1/step6"})
 
-@[ExamplesArrays]({"stubs": ["10.2/step2/ExamplesArrays.java"], "command": "sh run.sh CalcMain 10.2/step1"})
+@[ExamplesArrays]({"stubs": ["10.2/step1/ExamplesArrays.java"], "command": "sh run.sh CalcMain 10.2/step1"})
 
 
 # 11.2 Abstracting Common Method Implementations
