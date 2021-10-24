@@ -214,7 +214,7 @@
 
 @[CalcMain]({"stubs": ["10.1/step6/CalcMain.java"], "command": "sh run-cli.sh CalcMain 10.1/step6"})
 
-@[ExamplesArrays]({"stubs": ["10.2/step1/ExamplesArrays.java"], "command": "sh run.sh CalcMain 10.2/step1"})
+@[ExamplesArrays]({"stubs": ["10.2/step1/ExamplesArrays.java"], "command": "sh run.sh ExamplesArrays 10.2/step1"})
 
 @[Intersperse]({"stubs": ["10.2/step3/Intersperse.java"], "command": "sh run.sh Intersperse 10.2/step3"})
 
