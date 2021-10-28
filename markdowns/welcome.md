@@ -214,15 +214,38 @@
 
 @[CalcMain]({"stubs": ["10.1/step6/CalcMain.java"], "command": "sh run-cli.sh CalcMain 10.1/step6"})
 
+# 10.2 More Iteration Patterns
+
 @[ExamplesArrays]({"stubs": ["10.2/step1/ExamplesArrays.java"], "command": "sh run.sh ExamplesArrays 10.2/step1"})
 
 @[Intersperse]({"stubs": ["10.2/step3/Intersperse.java"], "command": "sh run.sh Intersperse 10.2/step3"})
 
+# 10.4 More Array Manipulation
+
 @[AddAtEnd]({"stubs": ["10.4/step2/AddAtEnd.java"], "command": "sh run.sh AddAtEnd 10.4/step2"})
 
+# 11.1 How to find stuff? (aka Searching)
 
-# 11.2 Abstracting Common Method Implementations
+# 11.2 2D Arrays and Methods
 
-@[extends AQuery]({"stubs": ["11.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 11.2/step2"})
+# 11.3 Java Collections
 
-@[extends AQuery]({"stubs": ["11.2/step3/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 11.2/step3"})
+@[ArrayListExamples.java]({"stubs": ["11.3/step3/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 11.3/step3"})
+
+@[ArrayListExamples.java]({"stubs": ["11.3/step4/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 11.3/step4"})
+
+@[ArrayListExamples.java]({"stubs": ["11.3/step5/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 11.3/step5"})
+
+@[SetExamples.java]({"stubs": ["11.3/step6/SetExamples.java"], "command": "sh run-cli.sh SetExamples 11.3/step6"})
+
+@[SetExamples.java]({"stubs": ["11.3/step8/widget1/SetExamples.java"], "command": "sh run-cli.sh SetExamples 11.3/step8/widget1"})
+
+@[SetExamples.java]({"stubs": ["11.3/step8/widget2/SetExamples.java"], "command": "sh run-cli.sh SetExamples 11.3/step8/widget2"})
+
+
+
+# 12.2 Abstracting Common Method Implementations
+
+@[extends AQuery]({"stubs": ["12.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 12.2/step2"})
+
+@[extends AQuery]({"stubs": ["12.2/step3/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 12.2/step3"})
