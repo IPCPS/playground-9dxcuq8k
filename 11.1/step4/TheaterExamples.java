@@ -4,7 +4,7 @@ class TheaterExamples {
   boolean[] row3 = {true, false, true, true, true, true};
   boolean[][] seats = {row1, row2, row3};
 
-  static int totalSeats(boolean[][] seats) {
+  static int availableSeats(boolean[][] seats) {
     int total = 0;
     for(boolean[] row: seats) {
       for(boolean seat: __________________) {
@@ -16,9 +16,6 @@ class TheaterExamples {
     return total;
   }
 
-  void testTotalSeats(Tester t) {
-    t.checkExpect(totalSeats(seats), 15);
-  }
   void testAvailableSeats(Tester t) {
     t.checkExpect(availableSeats(seats), 9);
   }
