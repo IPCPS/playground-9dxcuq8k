@@ -7,11 +7,11 @@ class TheaterExamples {
   static int totalSeats(boolean[][] seats) {
     int total = 0;
     for(boolean[] row: seats) {
-    for(boolean seat: __________________)
-    if(_______________)
-    total += ________________________;
-    }
-    }
+      for(boolean seat: __________________) {
+        if(_______________)
+          total += ________________________;
+        }
+      }
     }
     return total;
   }
