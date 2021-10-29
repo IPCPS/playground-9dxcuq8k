@@ -8,7 +8,7 @@ class TheaterExamples {
     int total = 0;
     for(boolean[] row: seats) {
       for(boolean seat: __________________) {
-        if(_______________)
+        if(_______________) {
           total += ________________________;
         }
       }
