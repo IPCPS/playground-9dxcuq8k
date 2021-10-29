@@ -1,3 +1,4 @@
+import tester.*;
 class TheaterExamples {
   boolean[] row1 = {true, true, false, false};
   boolean[] row2 = {true, false, false, false, true};
