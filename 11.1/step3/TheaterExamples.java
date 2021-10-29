@@ -8,7 +8,7 @@ class TheaterExamples {
   static int totalSeats(boolean[][] seats) {
     int total = 0;
     for(boolean[] row: seats) {
-      total += row.length;
+      total += _______________________;
     }
     return total;
   }
