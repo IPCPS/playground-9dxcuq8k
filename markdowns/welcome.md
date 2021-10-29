@@ -228,7 +228,7 @@
 
 @[TheaterExamples.java]({"stubs": ["11.1/step1/TheaterExamples.java"], "command": "sh run.sh TheaterExamples 11.1/step1"})
 
-@[TheaterExamples.java]({"stubs": ["11.1/step2/TheaterExamples.java"], "command": "sh run.sh TheaterExamples 11.2/step1"})
+@[TheaterExamples.java]({"stubs": ["11.1/step2/TheaterExamples.java"], "command": "sh run.sh TheaterExamples 11.1/step2"})
 
 
 # 11.2 2D Arrays and Methods
