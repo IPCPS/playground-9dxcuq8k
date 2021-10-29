@@ -6,7 +6,7 @@ class TheaterExamples {
   boolean[][] seats = {row1, row2, row3};
 
   boolean row1FirstSeat = this.seats[0][0];
-  boolean row3Seats = this.seats[2].length;
-  boolean[] row3 = this.seats[2];
-  boolean row3SeatsAgain = this.row3.length;
+  int row3Seats = this.seats[2].length;
+  boolean[] row3Accessed = this.seats[2];
+  int row3SeatsAgain = this.row3.length;
 }
