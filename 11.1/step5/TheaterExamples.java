@@ -22,13 +22,13 @@ class TheaterExamples {
     for(boolean seat: row) {
       if(seat) {
 	consecutiveTrueCount += 1;
-	if(consecutiveTrueCount >= howMany) { return true; }
+	if(consecutiveTrueCount >= howMany) { return ___________________; }
       }
       else {
-	consecutiveTrueCount = 0;
+	consecutiveTrueCount = ____________________;
       }
     }
-    return false;
+    return ______________________;
   }
 
   static int firstRowWithEnoughAdjacentSeats(boolean[][] seats, int howMany) {
