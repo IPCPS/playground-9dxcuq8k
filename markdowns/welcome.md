@@ -224,7 +224,10 @@
 
 @[AddAtEnd]({"stubs": ["10.4/step2/AddAtEnd.java"], "command": "sh run.sh AddAtEnd 10.4/step2"})
 
-# 11.1 How to find stuff? (aka Searching)
+# 11.1 Arrays of Arrays
+
+@[TheaterExamples.java]({"stubs": ["11.1/step1/TheaterExamples.java"], "command": "sh run.sh TheaterExamples 11.1/step1"})
+
 
 # 11.2 2D Arrays and Methods
 
