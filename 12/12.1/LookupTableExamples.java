@@ -1,4 +1,12 @@
 import tester.*;
+class StudentInfo {
+    String preferredName, email, majorCode;
+    StudentInfo(String preferredName, String email, String majorCode) {
+        this.preferredName = preferredName;
+        this.email = email;
+        this.majorCode = majorCode;
+    }
+}
 class LookupTable<Contents> {
     String[] ids;
     Contents[] contents;
