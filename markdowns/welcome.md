@@ -264,6 +264,8 @@
 
 @[LookupTableExamples.java]({"stubs": ["12/12.1/LookupTableExamples.java"], "command": "sh run.sh LookupTableExamples 12/12.1"})
 
+@[IntegerTableExamples.java]({"stubs": ["12/12.1/IntegerTableExamples.java"], "command": "sh run.sh IntegerTableExamples 12/12.1"})
+
 # 13.2 Abstracting Common Method Implementations
 
 @[extends AQuery]({"stubs": ["12.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 12.2/step2"})
