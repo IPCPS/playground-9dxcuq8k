@@ -17,8 +17,8 @@ class LookupTable<Contents> {
 }
 class IntegerTableExamples {
   void testIntegerTable(Tester t) {
-    ints likes = {100, 2000, 30};
-    String tweetIds = {"1234", "5678", "9876"};
+    int[] likes = {100, 2000, 30};
+    String[] tweetIds = {"1234", "5678", "9876"};
     LookupTable<int> likesByTweet = new LookupTable<int>(tweetIds, likes);
     t.checkExpect(likesByTweet.find("1234"), 100);
     t.checkExpect(likesByTweet.find("9876"), 30);
