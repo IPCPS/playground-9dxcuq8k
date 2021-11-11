@@ -258,7 +258,7 @@
 
 # 12.1 <a href="#generics">Generics</a>
 
-@[DirectoryExamples.java]({"stubs": ["12/12.1/DirectoryExamples.java"], "command": "sh run-cli.sh DirectoryExamples 12/12.1"})
+@[DirectoryExamples.java]({"stubs": ["12/12.1/DirectoryExamples.java"], "command": "sh run.sh DirectoryExamples 12/12.1"})
 
 # 13.2 Abstracting Common Method Implementations
 
