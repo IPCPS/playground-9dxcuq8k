@@ -9,12 +9,12 @@ class StudentInfo {
 }
 class StudentDirectory {
   String[] pids;
-  StudentInfo[] studentInformation;
-  StudentDirectory(String[] pids, StudentInfo[] studentInformation) {
+  ____________[] studentInformation;
+  StudentDirectory(String[] pids, ____________[] studentInformation) {
     this.pids = pids;
     this.studentInformation = studentInformation;
   }
-  StudentInfo find(String pid) {
+  ____________ find(String pid) {
     for(int i = 0; i < this.pids.length; i += 1) {
       if(this.pids[i].equals(pid)) {
         return this.studentInformation[i];
