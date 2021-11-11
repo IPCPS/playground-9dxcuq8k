@@ -254,8 +254,13 @@
 @[SetExamples.java]({"stubs": ["11.3/step8/widget2/SetExamples.java"], "command": "sh run-cli.sh SetExamples 11.3/step8/widget2"})
 
 
+<a name="generics">Generics</a>
 
-# 12.2 Abstracting Common Method Implementations
+# 12.1 <a href="#generics">Generics</a>
+
+@[DirectoryExamples.java]({"stubs": ["12/12.1/DirectoryExamples.java"], "command": "sh run-cli.sh DirectoryExamples 12/12.1"})
+
+# 13.2 Abstracting Common Method Implementations
 
 @[extends AQuery]({"stubs": ["12.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 12.2/step2"})
 
