@@ -254,6 +254,8 @@
 
 # 11.3 Java Collections
 
+@[ArrayListExamples.java]({"stubs": ["12.2/step2/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 12.2/step2"})
+
 @[ArrayListExamples.java]({"stubs": ["12.2/step3/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 12.2/step3"})
 
 @[ArrayListExamples.java]({"stubs": ["12.2/step4/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 12.2/step4"})
