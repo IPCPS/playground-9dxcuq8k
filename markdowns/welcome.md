@@ -239,20 +239,6 @@
 
 # 11.2 2D Arrays and Methods
 
-# 11.3 Java Collections
-
-@[ArrayListExamples.java]({"stubs": ["11.3/step3/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 11.3/step3"})
-
-@[ArrayListExamples.java]({"stubs": ["11.3/step4/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 11.3/step4"})
-
-@[ArrayListExamples.java]({"stubs": ["11.3/step5/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 11.3/step5"})
-
-@[SetExamples.java]({"stubs": ["11.3/step6/SetExamples.java"], "command": "sh run-cli.sh SetExamples 11.3/step6"})
-
-@[SetExamples.java]({"stubs": ["11.3/step8/widget1/SetExamples.java"], "command": "sh run-cli.sh SetExamples 11.3/step8/widget1"})
-
-@[SetExamples.java]({"stubs": ["11.3/step8/widget2/SetExamples.java"], "command": "sh run-cli.sh SetExamples 11.3/step8/widget2"})
-
 
 <a name="generics">Generics</a>
 
@@ -266,8 +252,29 @@
 
 @[IntegerTableExamples.java]({"stubs": ["12/12.1/IntegerTableExamples.java"], "command": "sh run.sh IntegerTableExamples 12/12.1"})
 
+# 11.3 Java Collections
+
+@[ArrayListExamples.java]({"stubs": ["12.2/step3/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 12.2/step3"})
+
+@[ArrayListExamples.java]({"stubs": ["12.2/step4/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 12.2/step4"})
+
+@[ArrayListExamples.java]({"stubs": ["12.2/step5/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 12.2/step5"})
+
+@[SetExamples.java]({"stubs": ["12.2/step6/SetExamples.java"], "command": "sh run-cli.sh SetExamples 12.2/step6"})
+
+@[SetExamples.java]({"stubs": ["12.2/step8/widget1/SetExamples.java"], "command": "sh run-cli.sh SetExamples 12.2/step8/widget1"})
+
+@[SetExamples.java]({"stubs": ["12.2/step8/widget2/SetExamples.java"], "command": "sh run-cli.sh SetExamples 12.2/step8/widget2"})
+
+@[MapExamples.java]({"stubs": ["12.2/step9/MapExamples.java"], "command": "sh run-cli.sh MapExamples 12.2/step9"})
+
+@[MapExamples.java]({"stubs": ["12.2/step10/MapExamples.java"], "command": "sh run-cli.sh MapExamples 12.2/step10"})
+
+@[MapExamples.java]({"stubs": ["12.2/step11/MapExamples.java"], "command": "sh run-cli.sh MapExamples 12.2/step11"})
+
+
 # 13.2 Abstracting Common Method Implementations
 
-@[extends AQuery]({"stubs": ["12.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 12.2/step2"})
+@[extends AQuery]({"stubs": ["13.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.2/step2"})
 
-@[extends AQuery]({"stubs": ["12.2/step3/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 12.2/step3"})
+@[extends AQuery]({"stubs": ["13.2/step3/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.2/step3"})
