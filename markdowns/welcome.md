@@ -276,9 +276,24 @@
 
 @[MapExamples.java]({"stubs": ["12.2/step11/MapExamples.java"], "command": "sh run-cli.sh MapExamples 12.2/step11"})
 
+# 13.1
+
+@[ExamplesSearch.java]({"stubs": ["13.1/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.1/step1"})
+
+@[ExamplesSearch.java]({"stubs": ["13.1/step3/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.1/step3"})
+
+@[ExamplesSearch.java]({"stubs": ["13.1/step4/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.1/step4"})
 
 # 13.2 Abstracting Common Method Implementations
 
 @[extends AQuery]({"stubs": ["13.2/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.2/step2"})
 
 @[extends AQuery]({"stubs": ["13.2/step3/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.2/step3"})
+
+# 13.3
+
+@[super]({"stubs": ["13.3/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.3/step2"})
+
+# 13.4
+
+@[Class hierarchy]({"stubs": ["13.4/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.4/step2"})
