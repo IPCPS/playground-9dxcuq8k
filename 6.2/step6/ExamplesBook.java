@@ -4,7 +4,7 @@ class Book {
     String title;
     String author;
     int price;
-  //autofold {
+// { autofold
     Book(String title, String author, int price) {
       this.title = title;
       this.author = author;
@@ -14,7 +14,7 @@ class Book {
     boolean sameAuthor(Book other) {
       return this.author.equals(other.author);
     }
-  // }
+// }
 
     int salePrice(int percentage) {
       return this.price - this.price * (percentage / 100);
