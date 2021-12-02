@@ -237,9 +237,6 @@
 @[TheaterExamples.java]({"stubs": ["11.1/step5/TheaterExamples.java"], "command": "sh run.sh TheaterExamples 11.1/step5"})
 
 
-# 11.2 2D Arrays and Methods
-
-
 <a name="generics">Generics</a>
 
 # 12.1 <a href="#generics">Generics</a>
@@ -252,7 +249,7 @@
 
 @[IntegerTableExamples.java]({"stubs": ["12/12.1/IntegerTableExamples.java"], "command": "sh run.sh IntegerTableExamples 12/12.1"})
 
-# 11.3 Java Collections
+# 12.2 Java Collections
 
 @[ArrayListExamples.java]({"stubs": ["12.2/step1/ArrayListExamples.java"], "command": "sh run-cli.sh ArrayListExamples 12.2/step1"})
 
