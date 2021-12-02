@@ -273,7 +273,7 @@
 
 @[MapExamples.java]({"stubs": ["12.2/step11/MapExamples.java"], "command": "sh run-cli.sh MapExamples 12.2/step11"})
 
-# 13.1
+# 13.1 Combining Queries, Part II
 
 @[ExamplesSearch.java]({"stubs": ["13.1/step1/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.1/step1"})
 
@@ -287,10 +287,10 @@
 
 @[extends AQuery]({"stubs": ["13.2/step3/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.2/step3"})
 
-# 13.3
+# 13.3 Abstracting Common Fields
 
 @[super]({"stubs": ["13.3/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.3/step2"})
 
-# 13.4
+# 13.4 Talking About Abstract Classes
 
 @[Class hierarchy]({"stubs": ["13.4/step2/ExamplesSearch.java"], "command": "sh run.sh ExamplesSearch 13.4/step2"})
